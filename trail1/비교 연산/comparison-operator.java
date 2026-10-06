@@ -21,54 +21,52 @@ public class Main {
 
 
 
-         if(A>B){
+         if(A>B)
              System.out.println("1");
 
-        }
-        else{
+        
+        else
             System.out.println("0");
-        }
+        
 
 
 
-        if(A<=B){
+        if(A<=B)
              System.out.println("1");
 
-        }
-        else{
+        
+        else
             System.out.println("0");
-        }
+        
          
          
          
-         if(A<B){
+        
+             System.out.println(A<B ? "1":"0");
+
+        
+    
+        
+
+
+
+         if(A==B)
              System.out.println("1");
 
-        }
-        else{
+        
+        else
             System.out.println("0");
-        }
+        
 
 
 
-         if(A==B){
+         if(A!=B)
              System.out.println("1");
 
-        }
-
-        else{
+        
+        else
             System.out.println("0");
-        }
-
-
-
-         if(A!=B){
-             System.out.println("1");
-
-        }
-        else{
-            System.out.println("0");
-        }
+        
 
      
 
