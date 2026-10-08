@@ -12,9 +12,9 @@ public class Main {
     int sumVal = 0 ;
 
 
-    for(int i =A; A <= B ; A++){
+    for(int i =A; i <= B ; i++){
 
-        sumVal = sumVal + A;
+        sumVal = sumVal + i;
 
 
 
