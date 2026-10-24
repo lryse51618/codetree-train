@@ -1,0 +1,31 @@
+import java. util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        // Please write your code here.
+
+        //파이프라인 설정
+        Scanner sc = new Scanner(System.in);
+
+        int N = sc.nextInt();
+    
+       
+
+        for(int i = 1 ; i <= N ; i++){
+
+            if(i%2 == 0 ){
+                continue ;
+            }
+            else if(i % 10 == 5){
+                continue ;
+            }
+            else if(i % 3 == 0 && i % 9 != 0){
+                continue;
+            }
+
+            
+        System.out.print(i+" ");
+        }
+     
+    }
+}
