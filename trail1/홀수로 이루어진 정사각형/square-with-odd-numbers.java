@@ -6,7 +6,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int N = sc.nextInt();
-        int k = 11;
+        
 
 
         for(int i = 0; i < N; i++){
@@ -16,14 +16,13 @@ public class Main {
             for(int j = 0; j < N; j++){
 
                 
-                System.out.print(k+" ");
+                System.out.print((i*2+j*2+11)+" ");
 
-                k = k + 2;
+                
 
 
             }
 
-            k = k - 2*(N-1);
 
             System.out.println();
         }
