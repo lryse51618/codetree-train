@@ -7,10 +7,6 @@ public class Main {
 
         int N = sc.nextInt();
 
-       
-
-
-
         for(int i = 1; i <= N; i++){
 
            int cnt = N;
@@ -27,10 +23,6 @@ public class Main {
                 
                 
                 cnt--;
-
-         
-
-    
         }
         System.out.println();
         // Please write your code here.
