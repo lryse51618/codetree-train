@@ -4,15 +4,25 @@ public class Main {
     public static void main(String[] args) {
         // Please write your code here.
         Scanner sc = new Scanner(System.in);
+        int[] arr = new int[10];
         int sum = 0;
 
-        for(int i = 0; i < 10; i++){
+        for(int i = 0 ; i < 10 ; i++){
 
-            int a = sc.nextInt();
-            sum = sum + a;
-
+            arr[i] = sc.nextInt();
 
         }
-        System.out.print(sum);
+
+        for(int i = 0 ; i < 10; i++ ){
+            sum = sum + arr[i] ;
+        }
+
+System.out.print(sum);
+
+        
+   
+   
+   
+   
     }
 }
