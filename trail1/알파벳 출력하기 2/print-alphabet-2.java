@@ -28,8 +28,6 @@ public class Main {
                     ch++;
                 }
 
-               
-
             }
 
             System.out.println();
