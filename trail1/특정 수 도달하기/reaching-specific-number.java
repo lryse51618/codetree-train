@@ -20,20 +20,13 @@ public class Main {
         //작업 시작
         for(int j = 0; j < 10; j++){
 
-            if(arr[j] >= 250){
-                break;
-            }
-
-            else{
+            if(arr[j] >= 250) break;
+            
                  sum = sum + arr[j];
                  cnt = cnt + 1;
-
-            }
-
-     
-        }
-        System.out.print(sum+" ");
-        System.out.printf("%.1f" , (double)sum/cnt);
+              }
+      
+        System.out.printf("%d %.1f" , sum,(double)sum/cnt);
 
 
 
