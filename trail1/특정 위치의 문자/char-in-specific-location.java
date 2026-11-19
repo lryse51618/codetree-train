@@ -19,10 +19,11 @@ public class Main {
                 break;
             }
             cnt++;
+            
 
         }
 
-        if(cnt == 6){
+        if(cnt  == 6){
             System.out.print("None");
         }
 
